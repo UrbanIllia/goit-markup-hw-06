@@ -1,18 +1,63 @@
 body {
   background-color: #ffffff;
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
 }
 a {
   text-decoration: none;
 }
-.hero-section {
-  background-color: #2e2f42;
+
+/* Header */
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
-.hero-section-button {
+.logo-span {
+  color: #2e2f42;
+}
+.header-nav-links {
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+.header-address-links {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+.header-address {
+  font-style: normal;
+}
+/* Hero */
+
+.hero-section {
+  background-color: #2e2f42;
+}
+.hero-section-title {
+  font-weight: 700;
+  line-height: 60px;
+  font-size: 56px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+}
+.hero-section-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
@@ -21,18 +66,6 @@ a {
 .hero-section-button:focus {
   background-color: #404bbf;
   color: #ffffff;
-}
-.header-nav-links {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  color: #2e2f42;
-}
-.header-address-links {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  color: #434455;
 }
 
 .header-nav-links:hover,
@@ -43,33 +76,39 @@ a {
 .header-address-links:focus {
   color: #404bbf;
 }
-.hero-section-title {
-  font-weight: 700;
-  line-height: 60px;
-  font-size: 56px;
-  color: #ffffff;
-}
+/* section 2 */
 
-h2 {
+/* Section 3 */
+.section-title {
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
   color: #2e2f42;
 }
-h3 {
+.card-titles {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
-p {
+.card-text {
+  letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 24px;
 }
+.team-list-cards {
+  background-color: #ffffff;
+}
+
 header {
   background-color: #e7e9fc;
 }
-.team_list-section {
+.team-list-section {
   background-color: #f4f4fd;
 }
 footer {

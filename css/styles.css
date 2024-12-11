@@ -79,6 +79,7 @@ a {
 /* section 2 */
 
 /* Section 3 */
+
 .section-title {
   line-height: 1.11;
   text-align: center;
@@ -111,6 +112,11 @@ header {
 .team-list-section {
   background-color: #f4f4fd;
 }
-footer {
+.footer {
   background-color: #2e2f42;
+}
+.footer-text {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }

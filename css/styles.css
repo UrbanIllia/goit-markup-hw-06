@@ -89,7 +89,7 @@ a {
   text-transform: capitalize;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 40px;
   color: #2e2f42;
 }
 .card-titles {
@@ -129,7 +129,7 @@ header {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.footer-span {
+.footerok-span {
   color: #f4f4fd;
 }
 

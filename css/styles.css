@@ -46,6 +46,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
+  padding: 0 15px;
 }
 
 .features-title,
@@ -205,11 +206,22 @@ img {
 }
 .visually-hidden {
   position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+  /* position: absolute;
   left: -10000px;
   top: auto;
   width: 1px;
   height: 1px;
-  overflow: hidden;
+  overflow: hidden; */
 }
 
 /*       Section 3     team-list-section     ////////////////// */

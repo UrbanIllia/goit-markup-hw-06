@@ -688,11 +688,11 @@ textarea {
 
 .span-modal-checkbox {
   display: inline-flex;
-  position: absolute;
+  /* position: absolute; */
   align-items: center;
   justify-content: center;
   fill: transparent;
-  margin-left: -24px;
+  /* margin-left: -24px; */
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -704,9 +704,10 @@ textarea {
   cursor: pointer;
 }
 .checkbox-conteiner {
-  display: inline-flex;
+  /* display: inline-flex; */
   margin-bottom: 24px;
   align-items: center;
+  align-self: flex-start;
 }
 .link-privacy {
   text-decoration: underline solid;
@@ -715,7 +716,6 @@ textarea {
 }
 .checkbox-label {
   line-height: 1.17;
-  padding-left: 24px;
   font-size: 12px;
   letter-spacing: 0.04em;
   color: #8e8f99;

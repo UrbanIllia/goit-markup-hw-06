@@ -168,13 +168,14 @@ textarea {
 } */
 /* .............................................. */
 .header-nav-list {
-  display: flex;
-  gap: 40px;
-  align-items: center;
+  display: none;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  /* ...768-767............................................ */
   .header-nav-list {
-    display: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
   }
 }
 /* ............................................... */
@@ -227,13 +228,7 @@ textarea {
 /* ......................................................... */
 
 .header-address-links {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 14px;
-  color: var(--color-text);
-  letter-spacing: 0.04em;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: color;
+  display: none;
 }
 @media (min-width: 1158px) {
   .header-address-links {
@@ -242,9 +237,16 @@ textarea {
     letter-spacing: 0.02em;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .header-address-links {
-    display: none;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: var(--color-text);
+    letter-spacing: 0.04em;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
   }
 }
 .header-address-links:hover,
@@ -520,19 +522,19 @@ textarea {
 /*       SECTION 2    Features-section   ////////////////////////////////////// */
 
 .features-card-div-svg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 264px;
-  height: 112px;
-  border: 1px solid var(--color-subtle-text);
-  border-radius: 4px;
-  background: var(--color-light);
-  margin-bottom: 8px;
+  display: none;
 }
-@media (max-width: 1158px) {
+@media (min-width: 1158px) {
   .features-card-div-svg {
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    border: 1px solid var(--color-subtle-text);
+    border-radius: 4px;
+    background: var(--color-light);
+    margin-bottom: 8px;
   }
 }
 /* ......................................... */
@@ -574,6 +576,7 @@ textarea {
   color: var(--color-dark);
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: center;
 }
 @media (min-width: 1158px) {
   .features-card-titles {
